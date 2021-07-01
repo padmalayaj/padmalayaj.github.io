@@ -54,8 +54,9 @@ header{
     cursor: pointer;
 }
 #navbar ul li a:hover{
-    color: #38cacf;
-   background-color: black;
+    color: #fff;
+   background-color: #50d1c0;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 
@@ -91,11 +92,12 @@ header{
     margin-top: 50px;
 }
 #about .box{ 
-    border: 2px solid brown;
+    border: 2px solid #50d1c0;
     padding: 50px 40px;
-    border-radius: 28px;
     background: #f2f2f2;
     margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+
 }
 
 #about .box p{
@@ -121,11 +123,15 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid brown;
+    border: 2px solid #50d1c0;
+    padding: 50px 40px;
+    border-radius: 0px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
     margin: 0px 20px;
     width: 500px;
     padding: 34px;
-    border-radius: 28px;
     background: #f2f2f2;
     margin-bottom: 20px;
 }
@@ -141,6 +147,10 @@ header{
     margin: 20px 0px 50px 0px;
 }   
 
+#projects .box p:hover{
+    color: #50d1c0;
+}   
+
 /* Footer */
 
 footer{
@@ -148,7 +158,10 @@ footer{
     color: white;
     padding: 9px 20px;
 }
-
+#foo p:hover{
+    color: #50d1c0;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
 
 /*Utility Classes */
 .psize{
